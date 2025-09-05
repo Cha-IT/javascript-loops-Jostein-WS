@@ -34,7 +34,7 @@ for (forsøk = 0; forsøk < 3; forsøk++) {
 }   */
 
 // oppgave 3
-let tall = prompt("Skriv inn enten oddetall eller partall");
+/* let tall = prompt("Skriv inn enten oddetall eller partall");
 let oddetall = 1
 let partall = 2
 if (tall === "oddetall") { 
@@ -48,4 +48,13 @@ if (tall === "oddetall") {
             console.log(partall);
             partall += 2;
         }
+    } */
+
+// oppgave 4
+for (let i = 1; i <= 10; i++) {
+    console.log("Tabell for " + i);
+    for (let j = 1; j <= 10; j++) {
+        let produkt = i * j;
+        console.log(i + " * " + j + " = " + produkt);
     }
+}
